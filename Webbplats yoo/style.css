@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.item {
+    background-color: cornflowerblue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.item2 {
+    background-color: rgb(174, 195, 235);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.item:hover {
+    background-color: rgb(174, 195, 235);
+}
+a:visited {
+    color:black
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+.Bild1 {
+    width: 10%;
+}
+.Gustavswebbplats {
+    width: 20%;
+}
+.Swag {
+    width: 20%;
+}
+ul {
+    list-style-type: none;
+    padding:0;
+}
+a {
+    display: block;
+}
+body {
+    background-color: rgb(41, 211, 160);
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: cornflowerblue;
+    display: block;
+    font-size: 120%;
+}
