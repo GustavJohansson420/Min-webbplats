@@ -59,3 +59,16 @@ footer {
     display: block;
     font-size: 120%;
 }
+.FooterBild1 {
+    float: right;
+}
+.FooterBild-2 {
+    float: left;
+}
+.Apa1 {
+    float: left;
+}
+.Apa2 {
+    float: left;
+    width: 10%;
+}
