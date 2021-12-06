@@ -1,12 +1,12 @@
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+.container { /*Gör en klass selektor som alla taggar kan använda*/
+    display: grid; /*gör så att ett html element blir grid*/
+    grid-template-columns: auto auto auto; /*Säger att jag ska har 3 kolumner som som alla ska vara "auto" långa vilket betyder att de tar upp en sida i bredd tillsammans*/
 }
 .item {
-    background-color: cornflowerblue;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    background-color: cornflowerblue; /*Ändrar bakrundsfärgen*/
+    padding: 20px; /*Gör så att vi får utrymme runt detta elementet*/
+    font-size: 30px; /*Ändrar storleken på fonten*/
+    text-align: center; /*Gör så att texten hamnar i mitten*/
 }
 .item2 {
     background-color: rgb(174, 195, 235);
@@ -14,20 +14,20 @@
     font-size: 30px;
     text-align: center;
 }
-.item:hover {
+.item:hover { /*En pseudo selektor gör så att en selektor bara använder det som står här när selektorn är i ett vist läge, i detta fallet när man har muspekaren över item*/
     background-color: rgb(174, 195, 235);
 }
 a.globalmeny:visited {
-    color:black;
-    display: block;
+    color:black; /*Ändrar färgen*/
+    display: block; /*Gör att elementet syns som ett block*/
 }
 a.globalmeny:link {
     color: black;
-    text-decoration: none;
+    text-decoration: none; /*dekorerar texten men i detta fallet ville vi inta ha någon dekoration och därför står det none*/
     display: block;
 }
 .Bild1 {
-    width: 10%;
+    width: 10%; /*Ändrar storleken bå bilden*/
 }
 .Gustavswebbplats {
     width: 20%;
@@ -35,22 +35,22 @@ a.globalmeny:link {
 .Swag {
     width: 20%;
 }
-ul {
-    list-style-type: none;
+ul { /*Typselektor fungerar på ett eller flera element*/
+    list-style-type: none; /*Om man vill ha typ en punkt framför ett item i listan använder man list-style-type: men i detta fallet ville vi inta ha det därför står det none*/
     padding:0;
 }
 body {
     background-color: rgb(41, 211, 160);
 }
-tr:nth-child(even) {
+tr:nth-child(even) { /*Gör så att varje jämn rad i tabellen använder sig av det som står nedan*/
     background-color: rgb(238, 223, 190);
 }
 table {
-    border-collapse: collapse;
+    border-collapse: collapse; /*Gör så att istället för att det ska vara 2 borders så blir de 1*/
     background-color: rgb(221, 196, 126);
 }
-td, th {
-    border: 1px solid black;
+td, th { /*Gruppselektorn använder vi om vi vill at flera selektorer ska ha samma stil*/
+    border: 1px solid black; /*Gör en border som är 1px bred och är svart*/
 }
 footer {
     text-align: center;
@@ -60,10 +60,10 @@ footer {
     font-size: 120%;
 }
 .FooterBild1 {
-    float: right;
+    float: right; /*Gör så att bilden håller sig till höger om texten*/
 }
 .FooterBild-2 {
-    float: left;
+    float: left; /*Gör så att bilden håller sig till vänster om texten*/
 }
 .Apa1 {
     float: left;
